@@ -1,0 +1,82 @@
+.contactsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  background-color: #eaeaea;
+  gap: 1.5rem;
+  position: relative;
+}
+
+.mapCard {
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  max-width: 700px;
+  width: 100%;
+  text-align: left;
+}
+.mapCard .title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+.mapCard .mapWrapper {
+  width: 100%;
+  height: 300px;
+  border-radius: 15px;
+  overflow: hidden;
+  margin-bottom: 1rem;
+}
+.mapCard .address {
+  font-size: 0.9rem;
+  color: #333;
+}
+.mapCard .address p {
+  font-weight: bold;
+}
+.mapCard .address span {
+  display: block;
+  color: #888;
+}
+
+.socialBlock {
+  position: absolute;
+  right: 2rem;
+  top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 150px;
+  height: 150px;
+}
+.socialBlock a {
+  background: white;
+  padding: 0.7rem;
+  border-radius: 15px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  color: #111;
+  transition: all 0.3s;
+}
+.socialBlock a:hover {
+  transform: scale(1.05);
+  color: #ff6600;
+}
+
+.phoneBlock {
+  display: flex;
+  justify-content: start;
+  gap: 0.5rem;
+  font-size: 1.2rem;
+  color: #111;
+}
+.phoneBlock a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: bold;
+}/*# sourceMappingURL=style.module.css.map */

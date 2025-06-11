@@ -1,0 +1,82 @@
+.card {
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  transition: 0.3s;
+}
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.favorite {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.imageWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+}
+.imageWrapper img {
+  max-height: 100%;
+  max-width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.title {
+  font-size: 16px;
+  font-weight: 500;
+  margin: 12px 0 8px;
+}
+
+.priceBlock {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+.priceBlock .price {
+  font-weight: bold;
+}
+.priceBlock .oldPrice {
+  text-decoration: line-through;
+  color: #ccc;
+  font-size: 14px;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bottom .rating {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 14px;
+}
+.bottom .cartButton {
+  background-color: #101010;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 8px;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.bottom .cartButton:hover {
+  background-color: #2c2c2c;
+}/*# sourceMappingURL=style.module.css.map */

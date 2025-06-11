@@ -1,0 +1,47 @@
+.container {
+  padding: 22px 165px;
+}
+
+.banner {
+  display: flex;
+  height: 197px;
+  justify-content: center;
+  align-items: flex-end;
+  background-color: #1e1e1e;
+  color: white;
+  border-radius: 20px;
+  margin-bottom: 24px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+}
+.banner h2 {
+  font-family: "Montserrat", sans-serif;
+}
+.banner img {
+  width: 321px;
+  height: 226px;
+}
+.banner .img {
+  background-size: auto;
+  background-position: center;
+  width: 321px;
+  height: 226px;
+  background-image: url("public/assets/banner-phone.png");
+}
+
+.section {
+  margin-top: 30px;
+}
+.section h3 {
+  margin-bottom: 16px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: #838383;
+}
+.section .cardGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 16px;
+}/*# sourceMappingURL=style.module.css.map */

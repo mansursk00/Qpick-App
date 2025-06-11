@@ -1,0 +1,71 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  background: white;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  box-shadow: 0 -1px 10px rgba(0, 0, 0, 0.1);
+  font-family: "Montserrat", sans-serif;
+  padding: 20px 40px;
+  margin: 0 147px 0 183px;
+}
+.footer a {
+  text-decoration: none;
+  color: #000;
+  margin: 5px 0;
+  transition: color 0.3s;
+}
+.footer a:hover {
+  color: #f26b00;
+}
+.footer .logo {
+  font-size: 25px;
+  font-weight: 700;
+  color: #101010;
+  padding: 0;
+}
+.footer .menu {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 17px;
+  font-weight: 400;
+}
+.footer .serviceLang {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 10px;
+  font-size: 17px;
+  font-weight: 400;
+}
+.footer .serviceLang .lang {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.footer .serviceLang .lang svg {
+  font-size: 16px;
+}
+.footer .serviceLang .lang span {
+  cursor: pointer;
+  color: #000;
+}
+.footer .serviceLang .lang .active {
+  color: #f26b00;
+  font-weight: bold;
+}
+.footer .socials {
+  display: flex;
+  gap: 16px;
+}
+.footer .socials svg {
+  font-size: 20px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+.footer .socials svg:hover {
+  color: #f26b00;
+}/*# sourceMappingURL=style.module.css.map */
