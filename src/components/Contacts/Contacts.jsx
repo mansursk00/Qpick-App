@@ -18,42 +18,44 @@ const Contacts = () => {
 
 	return (
 		<div className={styles.contactsContainer}>
-			<div className={styles.mapCard}>
-				<h3 className={styles.title}>Наш офис</h3>
-				<div className={styles.mapWrapper}>
-					<iframe
-						title='Office Location'
-						width='100%'
-						height='100%'
-						frameBorder='0'
-						style={{ border: 0 }}
-						src={mapUrl}
-						allowFullScreen
-					></iframe>
+			<div className={styles.mapAndSocial}>
+				<div className={styles.mapCard}>
+					<h3 className={styles.title}>Наш офис</h3>
+					<div className={styles.mapWrapper}>
+						<iframe
+							title='Office Location'
+							width='100%'
+							height='100%'
+							frameBorder='0'
+							style={{ border: 0 }}
+							src={mapUrl}
+							allowFullScreen
+						></iframe>
+					</div>
+					<div className={styles.address}>
+						<p>Аксай-3а, 62Ф, Алматы, Казахстан</p>
+						<span>3 этаж 35 кабинет</span>
+					</div>
 				</div>
-				<div className={styles.address}>
-					<p>Аксай-3а, 62Ф, Алматы, Казахстан</p>
-					<span>3 этаж 35 кабинет</span>
-				</div>
-			</div>
 
-			<div className={styles.socialBlock}>
-				<a href='#'>
-					<FaWhatsapp />
-				</a>
-				<a href='#'>
-					<FaVk />
-				</a>
-				<a href='#'>
-					<FaInstagram />
-				</a>
-				<a href='#'>
-					<FaTelegramPlane />
-				</a>
+				<div className={styles.socialBlock}>
+					<a href='#'>
+						<FaWhatsapp />
+					</a>
+					<a href='#'>
+						<FaVk />
+					</a>
+					<a href='#'>
+						<FaInstagram />
+					</a>
+					<a href='#'>
+						<FaTelegramPlane />
+					</a>
+				</div>
 			</div>
 
 			<div className={styles.phoneBlock}>
-				<FaPhoneAlt />
+				<FaPhoneAlt className={styles.phoneIcon} />
 				<a href='tel:+77777777777'>+7 777 777 77 77</a>
 			</div>
 		</div>

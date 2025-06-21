@@ -41,7 +41,7 @@
   color: #838383;
 }
 .section .cardGrid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
-  gap: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
 }/*# sourceMappingURL=style.module.css.map */

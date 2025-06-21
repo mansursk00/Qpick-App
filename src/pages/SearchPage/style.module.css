@@ -1,0 +1,16 @@
+.searchPage {
+  padding: 20px 165px;
+  justify-content: center;
+}
+.searchPage h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+.searchPage .grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 20px;
+}
+.searchPage p {
+  font-size: 18px;
+}/*# sourceMappingURL=style.module.css.map */

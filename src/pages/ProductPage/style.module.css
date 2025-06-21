@@ -1,0 +1,124 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 58px 165px 23px 165px;
+}
+
+.topBlock {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  margin-bottom: 23px;
+  background-color: #fff;
+  border-radius: 15px;
+}
+
+.image {
+  width: 300px;
+  height: 300px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.mainInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.title {
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 25px;
+  color: #1c1c27;
+}
+
+.price {
+  font-size: 20px;
+  color: #ffa542;
+  font-weight: 600;
+}
+
+.bottomBlock {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.description {
+  margin-left: 22px;
+  font-family: "Montserrat";
+  color: #1c1c27;
+  font-weight: 500;
+  font-size: 15px;
+  background-color: #f9f9f9;
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+.description h3 {
+  margin-left: 23px;
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 20px;
+}
+.description p {
+  font-size: 16px;
+  color: #555;
+}
+
+.buttons {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.buttons button {
+  padding: 12px 20px;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: 600;
+}
+.buttons .buy {
+  background-color: #101010;
+  border-radius: 10px;
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 15px;
+  border: none;
+  color: #fff;
+  width: 254px;
+  height: 45px;
+}
+.buttons .buy:hover {
+  background-color: #ff9520;
+}
+.buttons .cart {
+  background-color: #101010;
+  border: none;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  width: 254px;
+  height: 45px;
+}
+.buttons .cart:hover {
+  background-color: #2c2c2c;
+}
+
+.cartSvg {
+  margin-right: 12px;
+}
+
+.cartTxt {
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.descTit {
+  width: 824px;
+}/*# sourceMappingURL=style.module.css.map */

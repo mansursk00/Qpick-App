@@ -18,7 +18,6 @@ const HomePage = ({ addToCart, toggleFavorite, favorites, language }) => {
 				setProducts(filtered)
 			})
 	}, [])
-	console.log(products)
 
 	return (
 		<div className={styles.container}>
@@ -37,7 +36,11 @@ const HomePage = ({ addToCart, toggleFavorite, favorites, language }) => {
 					{products.map(item => (
 						<ProductCard
 							key={item.id}
-							{...item}
+							id={item.id}
+							title={item.title}
+							image={item.image}
+							price={item.price}
+							rating={item.rating}
 							isFavorite={favorites.some(f => f.id === item.id)}
 							addToCart={() => addToCart(item)}
 							toggleFavorite={() => toggleFavorite(item)}
